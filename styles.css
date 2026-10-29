@@ -1,0 +1,109 @@
+body {
+    text-align: center;
+    font-family: "Isometra", serif;
+    font-weight: 400;
+    font-style: italic;
+    background: linear-gradient(black, gold);
+    color: #ffffff;
+}
+#ballon{
+    text-shadow: 0px 0px 10px silver;
+}
+.goat{
+    font-size: 60px;
+    font-style: italic;
+    text-shadow: 5px 5px 0 #333533;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    filter: drop-shadow(0px 0px 20px #fad643);
+    border-radius: 50%;
+    margin-bottom: 10px;
+    
+}
+
+#bday-age {
+    text-shadow: 0px 0px 5px lightgoldenrodyellow;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-shadow: 0px 0px 5px lightgoldenrodyellow;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.award-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#award-img-cheers {
+    height: 200px;
+}
+
+.award-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 200px;
+    width: 350px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/award.jpg");
+    background-size: cover;
+}
+
+#award-img-happy:hover {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTkzdG4yczBmZnMxcmd6dXl3eGs2ajQ4dHV5cTk1eDh6aXRqa3BoMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ecgrbdSVBK3bQm4NIU/giphy.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#award-img-hot:hover {
+    background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmVmcDNuYmc4dDU3c29vb2UweG8zNjR2Y3JnejB6dW1kYWJqNmJ6YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kNQYMnCT8jimONBWqF/giphy.gif");
+}
+
+#award-img-genius:hover {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ZzE0NHhkMHg3NmMwcHJzaWM4MDl1Nmh1b2s1aTY0MHM2eHp0eWdiMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1eExou2TFHiq8bhuYd/giphy.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#award-img-badass:hover {
+    background-image: url("images/Harrykane.jpg");
+}
+
+#award-img-cheers:hover {
+    background-image: url("images/cheers.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
